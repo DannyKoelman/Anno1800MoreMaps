@@ -1,0 +1,12 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2111015</GUID>
+      <Text>More Crowns</Text>
+    </Text>
+    <Text>
+      <GUID>2111009</GUID>
+      <Text>Enter "More Crowns"</Text>
+    </Text>
+  </ModOp>
+</ModOps>
