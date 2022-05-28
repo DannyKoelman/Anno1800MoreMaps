@@ -34,6 +34,37 @@
       </Dummies>
       <Id>196</Id>
     </i>
+    <i>
+      <hasValue>1</hasValue>
+      <Name>2111030_0</Name>
+      <Groups />
+      <Dummies>
+        <i>
+          <hasValue>1</hasValue>
+          <Name>2111030_0</Name>
+          <Position>
+            <x>15.128237</x>
+            <y>-0.123510</y>
+            <z>13.544896</z>
+          </Position>
+          <Orientation>
+            <w>0.911145</w>
+            <x>-0.000000</x>
+            <y>0.111570</y>
+            <z>0.000000</z>
+          </Orientation>
+          <Extents>
+            <x>0.100000</x>
+            <y>0.100000</y>
+            <z>0.100000</z>
+          </Extents>
+          <RotationY>3.989012</RotationY>
+          <Id>247</Id>
+          <HeightAdaptationMode>1</HeightAdaptationMode>
+        </i>
+      </Dummies>
+      <Id>196</Id>
+    </i>
 
     <i>
       <hasValue>1</hasValue>

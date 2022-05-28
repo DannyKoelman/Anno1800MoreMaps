@@ -1,0 +1,322 @@
+<ModOps>
+
+    <!-- Add New Session -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='180014']">
+        <Asset>
+            <Template>SessionModerate</Template>
+            <Values>
+            <Standard>
+                <GUID>2111001</GUID>
+                <Name>Four_Crowns_Session</Name>
+                <IconFilename>data/ui/2kimages/main/icons/icon_session_crowns_0.png</IconFilename>
+            </Standard>
+            <Session>
+                <MapTemplate>2111005</MapTemplate>
+                <CameraLoopSequence1>11</CameraLoopSequence1>
+                <CameraLoopSequence2>10</CameraLoopSequence2>
+                <AllowAdvancedCameraSettings>1</AllowAdvancedCameraSettings>
+                <TransferData>
+                    <!-- ############################################################### -->
+                    <Item>
+                        <!-- Europe -->
+                        <Session>180023</Session>
+                        <Duration>150000</Duration>
+                        <Direction>NorthWest</Direction>
+                    </Item>
+                    <Item>
+                        <!-- EuropeNorth_Expedition01 -->
+                        <Session>800385</Session>
+                        <Duration>200000</Duration>
+                        <Direction>NorthWest</Direction>
+                    </Item>
+                    <Item>
+                        <!-- EuropeCentral_Expedition01 -->
+                        <Session>800433</Session>
+                        <Duration>150000</Duration>
+                        <Direction>NorthWest</Direction>
+                    </Item>
+                    <Item>
+                        <!-- EuropeSouth_Expedition01 -->
+                        <Session>800432</Session>
+                        <Duration>100000</Duration>
+                        <Direction>NorthWest</Direction>
+                    </Item>
+                    <!-- ############################################################### -->
+                    <Item>
+                        <!-- SouthAmerica_Unlock -->
+                        <Session>800390</Session>
+                        <Duration>330000</Duration>
+                        <Direction>SouthWest</Direction>
+                    </Item>
+                    <Item>
+                        <!-- SouthAmerica -->
+                        <Session>180025</Session>
+                        <Duration>330000</Duration>
+                        <Direction>SouthWest</Direction>
+                    </Item>
+                    <Item>
+                        <!-- SouthAmerica_Expedition01 -->
+                        <Session>800386</Session>
+                        <Duration>330000</Duration>
+                        <Direction>SouthWest</Direction>
+                    </Item>
+                    <Item>
+                        <!-- SouthAmerica_Expedition02 -->
+                        <Session>800387</Session>
+                        <Duration>330000</Duration>
+                        <Direction>SouthWest</Direction>
+                    </Item>
+                    <Item>
+                        <!-- Campaign Chapter 3/SouthAmerica -->
+                        <Session>801999</Session>
+                        <Duration>330000</Duration>
+                        <Direction>SouthWest</Direction>
+                    </Item>
+                    <!-- ############################################################### -->
+                    <Item>
+                        <!-- SunkenTreasures_Unlock -->
+                        <Session>803421</Session>
+                        <Duration>50000</Duration>
+                        <Direction>SouthWest</Direction>
+                    </Item>
+                    <Item>
+                        <!-- Cape Trelawney -->
+                        <Session>110934</Session>
+                        <Duration>50000</Duration>
+                        <Direction>SouthWest</Direction>
+                    </Item>
+                    <!-- ############################################################### -->
+                    <Item>
+                        <!-- Arctic Unlock -->
+                        <Session>803422</Session>
+                        <Duration>330000</Duration>
+                        <Direction>NorthWest</Direction>
+                    </Item>
+                    <Item>
+                        <!-- The Arctic -->
+                        <Session>180045</Session>
+                        <Duration>330000</Duration>
+                        <Direction>NorthWest</Direction>
+                    </Item>
+                    <Item>
+                        <!-- Arctic_Expedtion01 -->
+                        <Session>800384</Session>
+                        <Duration>330000</Duration>
+                        <Direction>NorthWest</Direction>
+                    </Item>
+                    <!-- ############################################################### -->
+                    <Item>
+                        <!-- Enbesa Unlock -->
+                        <Session>803423</Session>
+                        <Duration>210000</Duration>
+                        <Direction>SouthWest</Direction>
+                    </Item>
+                    <Item>
+                        <!-- Enbesa -->
+                        <Session>112132</Session>
+                        <Duration>210000</Duration>
+                        <Direction>SouthWest</Direction>
+                    </Item>
+                    <!-- ############################################################### -->
+                    <Item>
+                        <!-- Not sure what this is -->
+                        <Session>800703</Session>
+                        <Duration>300000</Duration>
+                        <Direction>NorthWest</Direction>
+                    </Item>
+                    <!-- ############################################################### -->
+                </TransferData>
+                <SpawnStartShipAndKontor>0</SpawnStartShipAndKontor>
+                <SecondPartiesMaySettleHere>1</SecondPartiesMaySettleHere>
+                <WorldMapCardBackground>2111008</WorldMapCardBackground>
+                <WorldMapAsset>data/graphics/ui/3d_objects/world_map/clickable_moderate_02.cfg</WorldMapAsset>
+                <SecondPartyReferenceUnlock>1010464</SecondPartyReferenceUnlock>
+                <SecondPartyForceFollowPlayer>1</SecondPartyForceFollowPlayer>
+                <SecondPartyMotivation>
+                    <TargetPopulation>15000002</TargetPopulation>
+                    <TargetAmount>300</TargetAmount>
+                </SecondPartyMotivation>
+            </Session>
+            <Text>
+                <LocaText>
+                    <English>
+                        <Text>Four Crowns</Text>
+                        <Status>Exported</Status>
+                        <ExportCount>2</ExportCount>
+                    </English>
+                </LocaText>
+            </Text>
+            <Locked>
+                <DefaultLockedState>0</DefaultLockedState>
+                <DLCDependency>410040</DLCDependency>
+            </Locked>
+            <WorldMapSound>
+                <UIClickEvent>9818389</UIClickEvent>
+            </WorldMapSound>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Icon for region -->
+    <ModOp Type="add" GUID='500927' Path="/Values/SideNotificationsArchive/CoopSessionIcons">
+        <Item>
+            <Session>2111001</Session>
+            <Icon>data/ui/2kimages/main/icons/icon_session_crowns_0.png</Icon>
+        </Item>
+    </ModOp>
+
+    <!-- Add new background for region (Trading) -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='501683']">
+        <Asset>
+            <Template>Icon</Template>
+            <Values>
+            <Standard>
+                <GUID>2111006</GUID>
+                <Name>FourCrownsBackground</Name>
+                <IconFilename>data/ui/2kimages/main/assets/session_btn/session_btn_fourcrowns.png</IconFilename>
+            </Standard>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Add new icon for region (Trading) -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='501342']">
+        <Asset>
+            <Template>Icon</Template>
+            <Values>
+            <Standard>
+                <GUID>2111007</GUID>
+                <Name>Four Crowns Icon</Name>
+                <IconFilename>data/ui/2kimages/main/icons/icon_session_crowns_0.png</IconFilename>
+            </Standard>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Add new background for region (World Map) -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500875']">
+        <Asset>
+            <Template>Icon</Template>
+            <Values>
+            <Standard>
+                <GUID>2111008</GUID>
+                <Name>FourCrownsCardBackground</Name>
+                <IconFilename>data/ui/2kimages/main/assets/worldcard_bg/bg_worldcard_fourcrowns.png</IconFilename>
+            </Standard>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Add MapIcon/Background to session -->
+    <ModOp Type="add" GUID='501680' Path="/Values/SessionScene/SessionList">
+        <Item>
+            <Session>2111001</Session>
+            <Icon>2111007</Icon>
+            <Text>2111001</Text>
+            <Background>2111006</Background>
+        </Item>
+    </ModOp>
+
+    <!-- Add session to world map -->
+    <ModOp Type="add" GUID='180036' Path="/Values/WorldMap/ReleaseSessions">
+        <Item>
+            <Session>2111001</Session>
+        </Item>
+    </ModOp>
+
+    <!-- How long does it take to transfer to this session
+        180023 - Old World
+        180025 - New World
+        110934 - Cape Trelawney
+        180045 - The Arctic
+        112132 - Enbesa
+    -->
+    <ModOp Type="add" GUID='180023' Path="/Values/Session/TransferData">
+        <Item>
+            <Session>2111001</Session>
+            <Duration>150000</Duration>
+            <Direction>SouthEast</Direction>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='180025' Path="/Values/Session/TransferData">
+        <Item>
+            <Session>2111001</Session>
+            <Duration>330000</Duration>
+            <Direction>NorthEast</Direction>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='110934' Path="/Values/Session/TransferData">
+        <Item>
+            <Session>2111001</Session>
+            <Duration>50000</Duration>
+            <Direction>NorthEast</Direction>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='180045' Path="/Values/Session/TransferData">
+        <Item>
+            <Session>2111001</Session>
+            <Duration>330000</Duration>
+            <Direction>SouthEast</Direction>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='112132' Path="/Values/Session/TransferData">
+        <Item>
+            <Session>2111001</Session>
+            <Duration>210000</Duration>
+            <Direction>NortEast</Direction>
+        </Item>
+    </ModOp>
+
+    <!-- Add custom map -->
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='110933']">
+        <Asset>
+            <Template>MapTemplate</Template>
+            <Values>
+            <Standard>
+                <GUID>2111005</GUID>
+                <Name>four_crowns</Name>
+            </Standard>
+            <MapTemplate>
+                <IslandSize>Large</IslandSize>
+                <TemplateFilename>mods/[Map] Four Crowns/data/sessions/maps/four_crowns/four_crowns.a7t</TemplateFilename>
+                <TemplateSize>Large</TemplateSize>
+                <TemplateRegion>Moderate</TemplateRegion>
+                <TemplateMapType>Corners</TemplateMapType>
+            </MapTemplate>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Add Keybinding -->
+    <ModOp Type="add" GUID="2001271" Path="/Values/GUIConfig/KeyBindings">
+        <Item>
+            <DefaultKey>Keypad 6</DefaultKey>
+            <Command>TextSources.TextSourceRoots.Interface.JumpToSession(2111001)</Command>
+            <Text>2111009</Text>
+            <Active>Session;WorldMap</Active>
+            <Identifier>2111001</Identifier>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='23427']">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+            <Standard>
+                <GUID>2111009</GUID>
+                <Name>Session Switch - Four Crowns</Name>
+            </Standard>
+            <Text>
+                <LocaText>
+                <English>
+                    <Text>Enter "Four Crowns"</Text>
+                    <Status>Exported</Status>
+                    <ExportCount>2</ExportCount>
+                </English>
+                </LocaText>
+            </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>
