@@ -2,7 +2,7 @@
     <!-- Add New Session -->
     <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='180014']">
         <Asset>
-            <Template>SessionModerate</Template>
+            <Template>SessionSouthAmerica</Template>
             <Values>
                 <Standard>
                     <GUID>2111030</GUID>
