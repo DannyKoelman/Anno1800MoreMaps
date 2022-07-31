@@ -1,0 +1,18 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\data",
+    "\\data\\graphics",
+    "\\data\\graphics\\ui",
+    "\\data\\graphics\\ui\\3d_objects",
+    "\\data\\graphics\\ui\\3d_objects\\world_map",
+    "\\data\\sessions",
+    "\\data\\sessions\\maps",
+    "\\data\\sessions\\maps\\four_crowns",
+    "\\data\\ui",
+    "\\data\\ui\\2kimages",
+    "\\data\\ui\\2kimages\\main",
+    "\\data\\ui\\2kimages\\main\\icons"
+  ],
+  "PreviewInSolutionExplorer": false
+}

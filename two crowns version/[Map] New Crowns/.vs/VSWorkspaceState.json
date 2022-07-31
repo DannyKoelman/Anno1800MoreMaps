@@ -2,17 +2,16 @@
   "ExpandedNodes": [
     "",
     "\\data",
-    "\\data\\graphics",
-    "\\data\\graphics\\ui",
-    "\\data\\graphics\\ui\\3d_objects",
-    "\\data\\graphics\\ui\\3d_objects\\world_map",
-    "\\data\\sessions",
-    "\\data\\sessions\\maps",
-    "\\data\\sessions\\maps\\four_crowns",
+    "\\data\\config",
+    "\\data\\config\\export",
+    "\\data\\config\\export\\main",
+    "\\data\\config\\export\\main\\asset",
+    "\\data\\config\\gui",
     "\\data\\ui",
     "\\data\\ui\\2kimages",
     "\\data\\ui\\2kimages\\main",
-    "\\data\\ui\\2kimages\\main\\icons"
+    "\\data\\ui\\2kimages\\main\\assets"
   ],
+  "SelectedNode": "\\data\\config\\export\\main\\asset\\assets.xml",
   "PreviewInSolutionExplorer": false
 }
